@@ -1,4 +1,4 @@
-from dnf_satisfy import dnf_satisfy_tester, dnf_satisfy_rules
+import dnf_satisfy
 
-dnf_satisfy_rules()
-dnf_satisfy_tester()
+dnf_satisfy.rules()
+dnf_satisfy.tester()
